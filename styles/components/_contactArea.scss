@@ -1,0 +1,27 @@
+@use '../globals/' as g;
+@use '../utils/' as u;
+
+.contactArea {
+    &__col {
+        min-height: u.rem(555);
+
+        &__form {
+            &__item {
+
+                input {
+                    all: unset;
+                }
+
+                textarea {
+                    all: unset;
+                }
+            }
+
+            button {
+                border: none;
+                font-weight: 500;
+                height: u.rem(55);
+            }
+        }
+    }
+}

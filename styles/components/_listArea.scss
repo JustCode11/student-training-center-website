@@ -1,0 +1,14 @@
+@use '../globals/' as g;
+@use '../utils/' as u;
+
+.listArea {
+
+    &__item {
+        ul {
+            li {
+                padding-top: u.rem(10);
+                padding-bottom: u.rem(10);
+            }
+        }
+    }
+}

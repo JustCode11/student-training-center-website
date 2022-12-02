@@ -1,0 +1,13 @@
+@use '../globals/' as g;
+@use '../utils/' as u;
+
+.gridArea {
+    section {
+        padding-top: u.rem(30);
+        padding-bottom: u.rem(30);
+
+        img {
+            object-fit: cover;
+        }
+    }
+}

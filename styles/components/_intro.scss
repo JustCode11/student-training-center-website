@@ -1,0 +1,28 @@
+@use '../globals/' as g;
+@use '../utils/' as u;
+
+.intro {
+    color: white;
+    background: #222;
+    text-align: center;
+
+    @supports (background-blend-mode: multiply) {
+        background:
+            radial-gradient(#777, #777),
+            url('../../assets/images/pexels-photo-1438072.jpeg');
+        background-blend-mode: multiply;
+    }
+
+    &__content {
+
+        &>*:not(:last-child) {
+            margin-bottom: u.rem(20);
+        }
+
+        &__courses-paragraph {
+            font-size: u.rem(22);
+            font-weight: 600;
+            letter-spacing: u.rem(3);
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@use '../globals/' as g;
+@use '../utils/' as u;
+
+.numbersArea {
+    &__info-box {
+        padding-top: u.rem(100);
+        padding-bottom: u.rem(100);
+
+        &__img-container {
+            height: u.rem(133);
+            width: 100%;
+
+            img {
+                height: u.rem(133);
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &__symbol {
+            img {
+                transition: transform 200ms ease-in-out;
+            }
+
+            &:hover {
+                img {
+                    transform: translateX(u.rem(15));
+                }
+            }
+        }
+    }
+}

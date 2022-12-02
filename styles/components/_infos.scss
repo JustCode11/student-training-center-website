@@ -1,0 +1,40 @@
+@use '../globals/' as g;
+@use '../utils/' as u;
+
+.infos {
+    &__top {
+        &__img-container {
+            img {
+                object-fit: cover;
+                object-position: 80% 50%;
+
+                @include u.breakpoint-up(desktop) {
+                    width: u.rem(395);
+                    height: u.rem(452);
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        font-size: u.rem(18);
+        text-transform: full-width;
+    }
+
+    &__extra-container {
+        background-color: g.$course-yellow;
+        color: white;
+
+        &__icons {
+            height: u.rem(24);
+
+            a {
+                color: white;
+            }
+
+            a:not(:last-child) {
+                margin-right: u.rem(20);
+            }
+        }
+    }
+}
