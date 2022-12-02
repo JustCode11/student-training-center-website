@@ -11,6 +11,8 @@
             radial-gradient(#777, #777),
             url('../../assets/images/pexels-photo-1438072.jpeg');
         background-blend-mode: multiply;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     &__content {

@@ -5,3 +5,5 @@ I recreated the Student Training Center template from [nicepage](https://nicepag
 - Template from nicepage: [https://nicepage.com/t/1278233/student-training-center-template](https://nicepage.com/t/1278233/student-training-center-template)
 
 ## Live Site
+
+[https://justcode11.github.io/student-training-center-website/](https://justcode11.github.io/student-training-center-website/)
